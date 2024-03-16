@@ -1,4 +1,4 @@
-Arquivo ( análise de estatística descritiva das variáveis) Análise de Dados - Temática Dengue.pdf
+Arquivo ( análise de estatística descritiva das variáveis) Análise de Dados - Temática Dengue.pdf (/n)
 Arquivo ( script em Python) CIDACS.ipynb
 Arquivo ( dicionário online) DIC_DADOS_ONLINE.pdf
 Arquivo ( nota informativa pública do formulário de coleta) Nota_Informativa_059.pdf
