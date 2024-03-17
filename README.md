@@ -17,3 +17,9 @@
 
 
 7.Arquivo ( pasta compactada dos arquivos iniciais) selecao-curadoria-main.zip# analise_dados_dengue
+
+
+8. Arquivo ( script em Python) Qualidade_dos_Dados_pynb
+
+
+9. Arquivo ( em pdf) QRelatório da Qualidade_dos_Dados_pdf
