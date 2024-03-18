@@ -32,7 +32,7 @@
 
 
 
-![Texto alternativo](URL_DA_IMAGEM)
+![Dicionário de Dados, Análise da Qualidade dos Dados, Análise dos Dados, Balanceamento, Modelagem, Relatórios](URL_DA_IMAGEM)
 ![Logo do GitHub](https://github.com/SarahSouzaPontes/analise_dados_dengue/blob/main/Fluxograma.jpg)
 
 
