@@ -30,5 +30,15 @@
 
 13. Arquivo ( em jpg ) Fluxograma das atividades realizadas
 
+
+
+
+Alguns materiais de apoio:
+
+1.https://medium.com/@danielly.bx/tutorial-diagrama-de-controle-epidemiol%C3%B3gico-no-r-6633981ba34f
+2.https://opendatasus.saude.gov.br/
+3.https://portal.fiocruz.br/doenca/dengue
+4.https://portalsinan.saude.gov.br/sinan-dengue-chikungunya
+
     
 
