@@ -26,7 +26,7 @@
 
 11. Arquivo ( em pdf ) Adicional.pdf a avaliação qualidade dos dados.
 
-12. Arquivo ( em pdf ) Dicionário de Dados Dengue.pdf
+12. Arquivo ( em pdf ) Dicionário de Dados - BCO Dengue.pdf
 
 13. Arquivo ( em jpg ) Fluxograma das atividades realizadas
 
