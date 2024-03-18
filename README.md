@@ -30,6 +30,8 @@
 
 13. Arquivo ( em jpg ) Fluxograma das atividades realizadas
 
+![Texto alternativo](URL_DA_IMAGEM)
+![Logo do GitHub](https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png)
 
 
 
