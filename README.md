@@ -65,9 +65,9 @@ Alguns materiais de apoio:
 
                  |   Previsto Negativo   |   Previsto Positivo   |
 
-Negativo (0) |         7707          |           0           |
+Negativo (0) |         7707              |           0           |
 
-Positivo (1) |           7           |           0           |
+Positivo (1) |           7               |           0           |
                 FALSO NEGATIVOS         VERDADEIROS POSITIVOS
 
 Verdadeiros Negativos (TN): São os exemplos que foram corretamente classificados como negativos pelo modelo. No caso fornecido, há 7707 verdadeiros negativos.
