@@ -64,9 +64,9 @@ Alguns materiais de apoio:
                     VERDADEIROS NEGATIVOS   FALSO POSITIVOS
 
                  |   Previsto Negativo   |   Previsto Positivo   |
----------------------------------------------------------------
+
 Negativo (0) |         7707          |           0           |
----------------------------------------------------------------
+
 Positivo (1) |           7           |           0           |
                 FALSO NEGATIVOS         VERDADEIROS POSITIVOS
 
