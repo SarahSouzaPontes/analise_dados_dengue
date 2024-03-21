@@ -46,5 +46,35 @@ Alguns materiais de apoio:
 3.https://portal.fiocruz.br/doenca/dengue
 4.https://portalsinan.saude.gov.br/sinan-dengue-chikungunya
 
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                    VERDADEIROS NEGATIVOS   FALSO POSITIVOS
+
+                 |   Previsto Negativo   |   Previsto Positivo   |
+---------------------------------------------------------------
+Negativo (0) |         7707          |           0           |
+---------------------------------------------------------------
+Positivo (1) |           7           |           0           |
+                FALSO NEGATIVOS         VERDADEIROS POSITIVOS
+
+Verdadeiros Negativos (TN): São os exemplos que foram corretamente classificados como negativos pelo modelo. No caso fornecido, há 7707 verdadeiros negativos.
+
+Falsos Positivos (FP): São os exemplos que foram incorretamente classificados como positivos pelo modelo, quando na verdade são negativos. No caso fornecido, não há falsos positivos (valor = 0).
+
+Falsos Negativos (FN): São os exemplos que foram incorretamente classificados como negativos pelo modelo, quando na verdade são positivos. No caso fornecido, há 7 falsos negativos.
+
+Verdadeiros Positivos (TP): São os exemplos que foram corretamente classificados como positivos pelo modelo. No caso fornecido, não há verdadeiros positivos (valor = 0).
 
