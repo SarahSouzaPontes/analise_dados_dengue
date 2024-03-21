@@ -78,3 +78,44 @@ Falsos Negativos (FN): São os exemplos que foram incorretamente classificados c
 
 Verdadeiros Positivos (TP): São os exemplos que foram corretamente classificados como positivos pelo modelo. No caso fornecido, não há verdadeiros positivos (valor = 0).
 
+Precisão (Precision):
+
+A precisão é a proporção de exemplos positivos previstos corretamente em relação ao total de exemplos previstos como positivos pelo modelo. Neste caso, a precisão para a classe 0 é 1.00, o que significa que todos os exemplos previstos como classe 0 foram corretamente classificados. Para a classe 1, a precisão é 0.00, indicando que nenhum exemplo previsto como classe 1 foi corretamente classificado. Em geral, a precisão é uma medida de quão precisas são as previsões positivas do modelo.
+
+Recall (Recuperação):
+
+O recall, também conhecido como sensibilidade, é a proporção de exemplos positivos reais que foram corretamente identificados pelo modelo. Neste caso, o recall para a classe 0 é 1.00, o que significa que todos os exemplos da classe 0 foram corretamente identificados. Para a classe 1, o recall é 0.00, indicando que nenhum exemplo da classe 1 foi corretamente identificado. Em geral, o recall é uma medida de quão bem o modelo "lembra" dos exemplos positivos.
+
+F1-Score:
+
+O F1-Score é a média harmônica entre precisão e recall e fornece uma única métrica que combina essas duas medidas. Neste caso, o F1-Score para a classe 0 é 1.00, pois a precisão e o recall são ambos 1.00. Para a classe 1, o F1-Score é 0.00, devido à precisão e ao recall serem ambos 0.00. O F1-Score é útil para equilibrar a importância da precisão e do recall em um único valor.
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+------ R E S O L U Ç Ã O       P A R A            M E L H O R A R            O           M O D E L O -------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Lidar com classes desbalanceadas:
+
+Utilize técnicas de balanceamento de classes, como oversampling ou undersampling, antes de dividir os dados em conjuntos de treinamento e teste. Por exemplo, você pode usar a biblioteca imbalanced-learn para aplicar essas técnicas.
+
+Explorar diferentes algoritmos de classificação:
+
+Além da regressão logística, inicialize e treine outros modelos de classificação, como árvores de decisão, florestas aleatórias, SVMs, etc. Você pode criar uma lista de modelos e iterar sobre eles para treinar e avaliar cada modelo individualmente.
+
+Ajustar hiperparâmetros do modelo:
+
+Utilize a busca de hiperparâmetros (por exemplo, utilizando GridSearchCV ou RandomizedSearchCV do scikit-learn) para encontrar a combinação ideal de hiperparâmetros para cada modelo. 
+
+Realizar uma análise mais detalhada das características:
+
+Explore e pré-processe as características do conjunto de dados de forma mais detalhada. Isso pode envolver a remoção de características irrelevantes, tratamento de valores ausentes, normalização de características, entre outras técnicas.
+
+Avaliar métricas adicionais:
+
+Além da acurácia, calcule métricas como precisão, recall, F1-Score e especificidade para cada modelo. Isso pode ser feito utilizando a função classification_report do scikit-learn.
+
+
+Explorar métodos de validação cruzada:
+
+Utilize métodos de validação cruzada, como k-fold cross-validation, para avaliar o desempenho do modelo de forma mais robusta. Você pode usar a função cross_val_score do scikit-learn para isso.
+
